@@ -1,0 +1,26 @@
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/702548415095111781/702587498274226276/v284-binn-cooking_pack-19_2.png");
+  font-family: "Francois One", sans-serif;
+}
+
+#button {
+  margin-bottom: 25px;
+}
+
+.box {
+  margin: 20%;
+  padding: 5px;
+  text-align: center;
+  background-color: violet;
+  opacity: 95%;
+  border-radius: 8px;
+}
+blockquote {
+  font-size: large;
+  font-style: italic;
+}
+footer {
+  text-align: right;
+  font-weight: bolder;
+  padding-right: 25%;
+}
