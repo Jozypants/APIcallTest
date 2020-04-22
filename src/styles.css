@@ -6,12 +6,15 @@ body {
 #button {
   margin-bottom: 25px;
 }
+img {
+  margin-bottom: 25px;
+}
 
 .box {
   margin: 20%;
   padding: 5px;
   text-align: center;
-  background-color: violet;
+  background-color: #ea3434;
   opacity: 95%;
   border-radius: 8px;
 }

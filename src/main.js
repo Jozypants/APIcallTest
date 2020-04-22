@@ -9,11 +9,11 @@ $(document).ready(function(){
 
    $("#button").click(function(){
     (async() => {
-      let swanSong = new GetSwanson();
+      let swanSong = new GetSwanson()
       const response = await swanSong.getQuote();
-      $('#output').html(`<blockquote>"${response[0]}"<footer>-Ron Swanson</footer></blockquote>`);
-
-
+      const gifResponse = await swanSong.getGif();
+      console.log(gifResponse)
+      $('#output').html(`<img src="${gifResponse}" alt="a random ron gif"><blockquote>"${response[0]}"<footer>-Ron Swanson</footer></blockquote>`);
     })();
    });
    
